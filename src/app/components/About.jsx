@@ -14,7 +14,7 @@ const TAB_DATA = [
           <li>MongoDB</li>
           <li>JavaScript</li>
           <li>React.js</li>
-          <li>Restful API's</li>
+          <li>Restful API&apos;s</li>
         </ul>
       ),
     },
