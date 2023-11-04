@@ -13,7 +13,7 @@ const Contact = () => {
             subject: e.target.subject.value,
             message: e.target.message.value
         }
-
+        // console.log(data)
         try {
             const response = await fetch('/api/contact', {
                 method: 'POST',
@@ -42,7 +42,7 @@ const Contact = () => {
 
     return (
         <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative" id="contact">
-            
+
             <div>
                 <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">

@@ -23,8 +23,8 @@ export async function POST(request, response) {
 
         // Setup email data
         let mailOptions = {
-            from: emailUser,
-            to: email,
+            from: email,
+            to: emailUser,
             subject: subject,
             text: message,
         };
